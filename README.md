@@ -1,6 +1,6 @@
 # v8 profiler performance
 
-The purpose of this repository is to measure time it took for the profiler during the following steps:
+The purpose of this repository is to measure the time it took for the profiler during the following steps:
 * enable
 * start
 * stop
