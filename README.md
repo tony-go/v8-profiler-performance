@@ -1,9 +1,9 @@
 # v8 profiler performance
 
-The purpose of this repository is to measure the time it took for the profiler during the following steps:
-* enable
-* start
-* stop
+The purpose of this repository is to measure how much time the [profiler](https://nodejs.org/api/inspector.html#inspector) took during the following steps:
+* `Profiler.enable`
+* `Profiler.start`
+* `Profiler.stop`
 
 Thus, for the following versions of node: 8, 10, 12, 14, 16, 17 & 18
 
