@@ -1,4 +1,4 @@
-# v8 profile performance
+# v8 profiler performance
 
 The purpose of this repository is to measure time it took for the profiler during the following steps:
 * enable
@@ -15,7 +15,8 @@ We run the same piece of code 10 times for each version.
 
 <details>
 <summary>Results</summary>
-```
+
+```bash
 =======iteration number 1 for node v8.17.0========
 enable1: 1.336ms
 start1: 727.152ms
@@ -57,12 +58,14 @@ enable10: 0.215ms
 start10: 653.882ms
 stop10: 204.801ms
 ```
+
 </details>
 
 ### Node 10
 
 <details>
-<summary>Click to toggle contents of `code`</summary>
+<summary>Results</summary>
+
 ```
 =======iteration number 1 for node v10.24.1========
 enable1: 6.080ms
@@ -105,12 +108,14 @@ enable10: 0.256ms
 start10: 681.308ms
 stop10: 248.522ms
 ```
+
 </details>
 
 ### Node 12
 
 <details>
-<summary>Click to toggle contents of `code`</summary>
+<summary>Results</summary>
+
 ```
 =======iteration number 1 for node v12.22.12========
 enable1: 1.208ms
@@ -153,12 +158,13 @@ enable10: 0.168ms
 start10: 1708.810ms
 stop10: 0.696ms
 ```
+
 </details>
 
 ### Node 14
 
 <details>
-<summary>Click to toggle contents of `code`</summary>
+<summary>Results</summary>
 ```
 =======iteration number 1 for node v14.19.3========
 enable1: 0.918ms
@@ -206,7 +212,8 @@ stop10: 0.361ms
 ### Node 16
 
 <details>
-<summary>Click to toggle contents of `code`</summary>
+<summary>Results</summary>
+
 ```
 =======iteration number 1 for node v16.15.1========
 enable1: 0.389ms
@@ -248,13 +255,15 @@ stop9: 311.174ms
 enable10: 0.037ms
 start10: 2.471s
 stop10: 842.573ms
+
 ```
 </details>
 
 ### Node 17 
 
 <details>
-<summary>Click to toggle contents of `code`</summary>
+<summary>Results</summary>
+
 ```
 =======iteration number 1 for node v17.9.1========
 enable1: 0.31ms
@@ -296,13 +305,15 @@ stop9: 278ms
 enable10: 0.036ms
 start10: 2.478s
 stop10: 795.727ms
+
 ```
 </details>
 
 ### Node 18
 
 <details>
-<summary>Click to toggle contents of `code`</summary>
+<summary>Results</summary>
+
 ```
 =======iteration number 1 for node v18.4.0========
 enable1: 0.167ms
@@ -344,6 +355,7 @@ stop9: 342.259ms
 enable10: 0.041ms
 start10: 2.358s
 stop10: 899.227ms
+
 ```
 </details>
 
